@@ -2,7 +2,6 @@ package mx.com.gm.domain;
 
 import java.io.Serializable;
 import jakarta.persistence.*;
-import lombok.Data;
 
 @Entity
 @Table(name="persona")
