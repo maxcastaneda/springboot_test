@@ -31,7 +31,13 @@ public class Persona implements Serializable {
 		super();
 		// TODO Auto-generated constructor stub
 	}	
-	
+
+	public void setid_persona(Long id_persona) {
+		this.id_persona = id_persona;
+	}
+	public Long getId_persona() {
+		return id_persona;
+	}	
 	public String getNombre() {
 		return nombre;
 	}
